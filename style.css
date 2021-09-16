@@ -265,7 +265,7 @@ body {
     .project, .photography {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
 
     .nav-bar {
@@ -325,4 +325,14 @@ body {
         right: 45px;
         font-size: 60px;
       }
+
+      #profile img {
+        margin-bottom: 5px;
+        max-width: 90%;
+    }
+    
+    #photography img {
+        max-width: 90%;
+        margin-bottom: 5px;
+    }
 }
